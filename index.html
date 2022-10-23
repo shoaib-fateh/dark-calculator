@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+
+    <!-- core css -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="heading">
+            <span><i class="fa fa-bars"></i></span>
+            <span>
+                Calculator
+            </span>
+            <span>
+                <!-- M -->
+            </span>
+        </div>
+        <div id="result">
+            <div class="output">
+                <p id="output-value"></p>
+            </div>
+            <div class="history">
+                <p id="history-value"></p>
+            </div>
+        </div>
+        <div id="keyboard">
+            <div class="group">
+                <div class="top-section">
+                    <button class="operator" id="clear" onclick="clr()">C</button>
+                    <button class="operator" id="backspace" onclick="backspace()">
+                        <i class="fa fa-backspace"></i><b>B</b>
+                    </button>
+                    <button class="operator" id="%" onclick="show('%')">%</button>
+                </div>
+                <div class="middle-section">
+                    <div>
+                        <button class="number" id="7" onclick="show('7')">7</button>
+                        <button class="number" id="8" onclick="show('8')">8</button>
+                        <button class="number" id="9" onclick="show('9')">9</button>
+                    </div>
+                    <div>
+                        <button class="number" id="4" onclick="show('4')">4</button>
+                        <button class="number" id="5" onclick="show('5')">5</button>
+                        <button class="number" id="6" onclick="show('6')">6</button>
+                    </div>
+                    <div>
+                        <button class="number" id="1" onclick="show('1')">1</button>
+                        <button class="number" id="2" onclick="show('2')">2</button>
+                        <button class="number" id="3" onclick="show('3')">3</button>
+                    </div>
+                    <div>
+                        <button class="number" id="00" onclick="show('00')">00</button></td>
+                        <button class="number" id="0" onclick="show('0')">0</button></td>
+                    </div>
+                </div>
+            </div>
+            <div class="side-section">
+                <button class="operator" id="/" onclick="show('/')">/</button>
+                <button class="operator" id="*" onclick="show('*')">&times</button>
+                <button class="operator" id="-" onclick="show('-')">-</button>
+                <button class="operator" id="+" onclick="show('+')">+</button>
+                <button class="operator equal" id="=" onclick="equal()">=</button></td>
+            </div>
+        </div>
+    </div>
+
+    <!-- core css -->
+    <script src="js/app.js"></script>
+</body>
+
+</html>
