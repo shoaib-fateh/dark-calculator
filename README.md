@@ -1,4 +1,8 @@
-## Advance Calculator With JavaScript
+## Advanced JavaScript Calculator
+This is an advanced JavaScript calculator with a user-friendly interface, designed to perform basic arithmetic operations. The calculator incorporates features such as history tracking and a responsive layout.
 
-This is an Avance Java Script Calculator, and this is a simple preview of this app:
+## Preview
 <img src="./preview.png" alt="Advance Calculator With JavaScript">
+
+## Contributing
+If you'd like to contribute to the project, feel free to submit a pull request.
